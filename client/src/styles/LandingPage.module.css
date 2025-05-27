@@ -1,0 +1,119 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(199, 195, 227, 0.413);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #4f46e5;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #141313;
+  font-weight:600;
+}
+
+.brand {
+  text-decoration: none; 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.registerBtn {
+  padding: 0.5rem 1rem;
+  background-color: #a8a5dd;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: transparent;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaButtons button {
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background-color: #181680;
+  color: white;
+  height: 25px;
+  border-radius: 2px;
+}
+
+.secondaryBtn {
+  background-color: white;
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+}
+
+/* Highlights Section */
+.highlights {
+  padding: 3rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.bookCard {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.authContainer {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgb(243, 243, 240);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.authForm input,
+.authForm select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
