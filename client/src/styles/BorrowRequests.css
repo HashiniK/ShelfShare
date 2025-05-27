@@ -1,0 +1,51 @@
+.borrowRequestsSection {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.errorMessage {
+  color: #d9534f;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.noRequestsMessage {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+.requestCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.requestCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.requestCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.requestCard p {
+  margin: 0.5rem 0;
+}
+
+.requestCard strong {
+  color: #333;
+}

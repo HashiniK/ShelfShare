@@ -1,0 +1,82 @@
+.lenderDashboardSection {
+  padding: 2rem;
+}
+
+.dashboardTitle {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboardSection {
+  margin-top: 2rem;
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.bookCard {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addBookCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.addBookButton {
+  font-size: 1.5rem;
+  color: #333;
+}
+.requestList {
+  list-style: none;
+  padding: 0;
+}
+
+.requestList li {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.requestActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.requestActions button {
+  background-color: #099445;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.requestActions button:hover {
+  background-color: #00b362;
+}
+
+.requestActions button:last-child {
+  background-color: #dc3545;
+}
+
+.requestActions button:last-child:hover {
+  background-color: #a71d2a;
+}

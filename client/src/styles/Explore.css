@@ -1,0 +1,81 @@
+.exploreSection {
+  padding: 3rem 2rem;
+  background: linear-gradient(to bottom, #f9f9ff, #ffffff);
+  text-align: center;
+}
+
+.exploreTitle {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #4f46e5;
+}
+
+.exploreSubtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.searchContainer {
+  margin-bottom: 1.5rem;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+.filterContainer {
+  margin-bottom: 1.5rem;
+}
+
+.genreFilter {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.categoryCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-align: center; /* Ensure text is centered within the card */
+}
+
+.categoryCard:hover {
+  transform: translateY(-8px);
+}
+
+.categoryImage {
+  width: 100%;
+  height: 180px; /* Set a specific height for the images */
+  object-fit: contain; /* Ensure images maintain aspect ratio without cropping */
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+h3,
+p {
+  color: black; /* Set text color for both title and description */
+}
