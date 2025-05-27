@@ -175,6 +175,3 @@ router.delete("/:id", authenticate, async (req, res) => {
 });
 
 module.exports = router;
-git remote add origin https://github.com/HashiniK/ShelfShare.git
-git branch -M main
-git push -u origin main
